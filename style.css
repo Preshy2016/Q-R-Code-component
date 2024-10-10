@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', Georgia, 'Times New Roman', Times, serif ;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    margin: 0 auto; /* Center the container*/
+    max-width: 360px;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+.image {
+
+    padding: 15px;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.image img {
+    border-radius: 15px;
+}
+.text h2 {
+    padding: 12px;
+    align-items: center;
+   
+}
+
+.text p {
+    color: hsl(216, 15%, 48%);
+    align-items: center;
+    font-size: 15px;
+}
